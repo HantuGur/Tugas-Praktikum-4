@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandra Wijaya | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--Buat napbar-->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__logo">Chandra Wijaya<span>.</span></a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <ul class="navbar__links">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">Tentang</a></li>
+          <li><a href="#education" class="nav-link">Pendidikan</a></li>
+          <li><a href="#projects" class="nav-link">Proyek</a></li>
+          <li><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Buka menu navigasi" aria-expanded="false">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== LANDING PAGE / HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <p class="hero__greeting">Halo, perkenalkan saya</p>
+        <h1 class="hero__name">Chandra Wijaya</h1>
+        <h2 class="hero__role">Mahasiswa Informatika &mdash; Ai Engineer</h2>
+        <p class="hero__desc">
+          Saya adalah Mahasiswa UNTAR dengan Jurusan Teknik Informatika yang 
+          Bercita - cita untuk menjadi Seorang Ai engineer
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">Lihat Proyek</a>
+          <a href="#contact" class="btn btn--outline">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <div class="hero__photo-wrap">
+          <img src="profile(1).jpg" alt="Foto profil" class="hero__photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG / SKILLS ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">Tentang Saya</h2>
+      <p class="section-subtitle">Sedikit gambaran mengenai latar belakang dan kemampuan saya.</p>
+
+      <div class="about__grid">
+        <div class="about__card">
+          <h3>Bahasa Pemrograman</h3>
+          <ul class="tag-list">
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="about__card">
+          <h3>Tools &amp; Teknologi</h3>
+          <ul class="tag-list">
+            <li>Git &amp; GitHub</li>
+            <li>MySQL</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="about__card">
+          <h3>Fokus Belajar</h3>
+          <ul class="tag-list">
+            <li>Backend Development</li>
+            <li>Struktur Data</li>
+            <li>Aljabar Linear</li>
+            <li>Matematika Diskrit</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PENDIDIKAN / ORGANISASI ===== -->
+  <section class="education" id="education">
+    <div class="container">
+      <h2 class="section-title">Riwayat Pendidikan &amp; Organisasi</h2>
+      <p class="section-subtitle">Perjalanan pendidikan dan pengalaman organisasi saya.</p>
+
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2022 &ndash; Sekarang</span>
+            <h3>Universitas Tarumanagara</h3>
+            <p class="timeline__role">S1 Teknik Informatika</p>
+            <p>Menempuh pendidikan Strata 1 Teknik Informatika dengan fokus pada
+              pengembangan perangkat lunak, algoritma, dan struktur data.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2019 &ndash; 2022</span>
+            <h3>SMA Dian Bangsa</h3>
+            <p class="timeline__role">Jurusan IPS</p>
+            <p>Mengikuti Organisasi Keagamaan Dan Mengikuti OSIS</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2017 &ndash; 2020</span>
+            <h3>SMP Dian Bangsa</h3>
+            <p class="timeline__role">&nbsp;</p>
+            <p>Menjadi Anggota Organisasi OSIS Dan Keagamaan</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2013 &ndash; 2019</span>
+            <h3>SD Tunas Agung</h3>
+            <p class="timeline__role">&nbsp;</p>
+            <p>Menyelesaikan pendidikan dasar dengan baik</p>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline__item--org">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">2024 &ndash; Sekarang</span>
+            <h3>Magang Di Yayasan Tarumanagara  &mdash; Untar</h3>
+            <p class="timeline__role">Devisi Social Business Development</p>
+            <p>Aktif dalam menjadi panitia atau anggota untuk acara Bakti Sosial
+                Yang di laksanakan setiap 1 bulan sekali dan sebagai nya....
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Proyek Saya</h2>
+      <p class="section-subtitle">Beberapa proyek yang sudah saya kerjakan selama kuliah.</p>
+      <p class="section-subtitle">Disclamier : Beberapa Live Demo Tidak di tampikan untuk kepentingan Privasi.</p>
+
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="project_1.jpg" alt="Tampilan proyek Credit Risk Analysis">
+          </div>
+          <div class="project-card__body">
+            <h3>Credit Risk Analysis &ndash; Koperasi Simpan Pinjam</h3>
+            <p>Proyek Machine Learning untuk menganalisis dan memprediksi risiko
+              kredit pada koperasi simpan pinjam, membantu proses penilaian
+              kelayakan calon peminjam secara lebih objektif.</p>
+            <ul class="tag-list tag-list--small">
+              <li>Python</li>
+              <li>Machine Learning</li>
+              <li>Data Analysis</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#!" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/HantuGur/-Credit-Risk-Analysis-Koperasi-Simpan-Pinjam---MachineLearning" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="project_2.jpg" alt="Tampilan proyek UAS Backend">
+          </div>
+          <div class="project-card__body">
+            <h3>UAS Backend</h3>
+            <p>Proyek backend yang dikembangkan untuk Ujian Akhir Semester mata
+              kuliah Backend, mencakup pembuatan API dan pengelolaan data di sisi
+              server.</p>
+            <ul class="tag-list tag-list--small">
+              <li>Backend</li>
+              <li>REST API</li>
+              <li>Database</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#!" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/HantuGur/UAS-BackEnd" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="project_3.jpg" alt="Tampilan proyek KAISR">
+          </div>
+          <div class="project-card__body">
+            <h3>KAISR</h3>
+            <p>Saya membuat Pencatatan Pembelian barang di Toko Orang Tua menjadi lebih mudah
+              Dalam artian saya membuat "Mesin Kasir" untuk mempermudah hal tersebut.
+            </p>
+            <ul class="tag-list tag-list--small">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://hantugur.github.io/KAISR/" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/HantuGur/KAISR" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="project_4.jpg" alt="Tampilan proyek Gym Untar">
+          </div>
+          <div class="project-card__body">
+            <h3>Gym UNTAR</h3>
+            <p>Sistem pencatatan aktivitas gym UNTAR yang terhubung langsung ke
+              Google Sheets, sehingga setiap data yang diinput otomatis tercatat
+              dan bisa langsung dipantau melalui spreadsheet tanpa perlu database
+              terpisah.</p>
+            <ul class="tag-list tag-list--small">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Google Sheets API</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#!" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/HantuGur/gym-UNTAR-" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="project_5.jpg" alt="Tampilan proyek Dian Bangsa School">
+          </div>
+          <div class="project-card__body">
+            <h3>Dian Bangsa School</h3>
+            <p>Portofolio Website Sekolah Dian Bangsa</p>
+            <ul class="tag-list tag-list--small">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#!" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/HantuGur/DIAN-BANGSA-SCHOOL" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">
+            <img src="project_6.jpg" alt="Tampilan proyek KINA Coffee">
+          </div>
+          <div class="project-card__body">
+            <h3>KINA Coffee</h3>
+            <p>Membuat Portofolio Coffe Shop KINA Dengan tujuan pemasaran by website</p>
+            <ul class="tag-list tag-list--small">
+              <li>HTML</li>
+              <li>JavaScript</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="#!" target="_blank" rel="noopener">Live Demo</a>
+              <a href="https://github.com/HantuGur/KINA-Coffe" target="_blank" rel="noopener">Source Code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__about">
+        <h3>Chandra Wijaya</h3>
+        <p>NIM: 535250144</p>
+        <p>Mahasiswa Teknik Informatika &mdash; Universitas Tarumanagara</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#education">Pendidikan</a></li>
+          <li><a href="#projects">Proyek</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Kontak</h4>
+        <ul>
+          <li>Email: chandrapinter25@gmail.com</li>
+          <li>GitHub: <a href="https://github.com/HantuGur" target="_blank" rel="noopener">github.com/HantuGur</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Chandra Wijaya. Dibuat untuk Tugas Praktikum 4 &mdash; Portofolio Mandiri.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
